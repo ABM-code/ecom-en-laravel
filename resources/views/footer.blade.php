@@ -1,8 +1,8 @@
-    <footer class="bg-light text-center text-lg-start">
+    <footer class="bg-light text-center text-lg-start" style="margin-top: 30px">
         <!-- Grid container -->
-        <div class="container p-4">
+        <div class="container ">
         <!--Grid row-->
-        <div class="row">
+        <div class="row ">
             <!--Grid column-->
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
             <h5 class="text-uppercase">Footer text</h5>

@@ -18,9 +18,9 @@
                 </form>
             </ul>
 
-           <ul class="nav nav-bar navbar-right">
-               <li ><a href="#" style="text-decoration: none"> Cart (0)</a></li>
-           </ul>
+            <ul class="nav nav-bar navbar-right">
+                <li ><a href="#" style="text-decoration: none"> Cart (0)</a></li>
+            </ul>
 
         </div>
         </div>

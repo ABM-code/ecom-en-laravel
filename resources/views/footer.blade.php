@@ -1,4 +1,4 @@
-    <footer class="bg-light text-center text-lg-start" style="margin-top: 30px">
+    <footer class="bg-light text-center text-lg-start" style="clear: both">
         <!-- Grid container -->
         <div class="container ">
         <!--Grid row-->

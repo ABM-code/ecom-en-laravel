@@ -1,7 +1,7 @@
 @extends('master')
 @section('content')
 <div class="container-fluid" >
-    <div class="row justify-content-center" style="height: 350px; padding-top:80px" >
+    <div class="row justify-content-center " style="height: 350px; padding-top:80px; margin-left:500px;; " >
         <div class="col-sm-4" >
             <form class="mt-3" action="login" method="POST">
                 <div class="form-group mb-2">

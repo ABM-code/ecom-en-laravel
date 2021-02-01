@@ -1,3 +1,7 @@
+    <?php
+    use App\Http\Controllers\ProductController;
+    $total=ProductController::cartItem();
+    ?>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -16,16 +20,16 @@
             <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
             <li><a href="#">Orders</a></li>
-            <form class="navbar-form navbar-left">
+            <form  action="/search" class="navbar-form navbar-left">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
+                    <input type="text" name="query" class="form-control search-box" placeholder="Search">
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" class="btn btn-default">search</button>
                 </form>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-            <li>Cart (0)</li>
+            <li><a href="#">Cart ({{ $total }})</a></li>
 
             </ul>
 

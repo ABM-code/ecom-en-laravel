@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script>$('.carousel').carousel({
         interval: 1000
-      })</script>
+        })</script>
 </head>
 <body>
     @include('header')
@@ -36,6 +36,7 @@
 
     .custom-product{
         height: 600px;
+        margin-left: 10px;;
     }
     .carousel-inner .carousel-caption h3, p, h2 {
         color: rgb(6, 63, 51) !important
@@ -51,5 +52,12 @@
     .trendding-wrapper{
         margin-left: 200px;
     }
+    .detail-img{
+        height: 200px;
+    }
+    .search-box{
+        width: 500px !important
+    }
+
 </style>
 </html>

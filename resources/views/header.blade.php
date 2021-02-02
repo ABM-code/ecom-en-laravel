@@ -15,7 +15,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">E-COMM</a>
+            <a class="navbar-brand" href="/">E-COMM</a> <br>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

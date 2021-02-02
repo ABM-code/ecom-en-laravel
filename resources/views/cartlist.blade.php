@@ -5,11 +5,12 @@
         <div class="col-sm-10">
             <div class="trendding-wrapper">
                 <h4>Result For Products</h4>
+                <a class="btn btn-success" href="ordernow">Order Now</a>
                 @foreach ($products as $product)
                     <div class=" row searched-item cart-list-divider">
-                        <div class="col-sm-3" style="margin-bottom:50px;">
+                        <div class="col-sm-3" style="margin:20px;>
                             <a href="detail/{{ $product->id }}">
-                                <img class="trendinng-img" src="{{ $product->gallery }}" alt="">
+                                <img class="trendinng-img"  src="{{ $product->gallery }}" alt="">
                         </div>
                             <a/>
 

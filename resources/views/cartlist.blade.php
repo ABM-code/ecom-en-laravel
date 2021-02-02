@@ -21,8 +21,8 @@
 
                                 </div>
                         </div>
-                        <div class="col-sm-3" style="margin-bottom:50px;" >
-                            <button class="btn btn-danger">Remove To Cart</button>
+                        <div class="col-sm-3" style="margin:50px; " >
+                            <a href="/removecart/{{ $product->cart_id }}" class="btn btn-warning">Remove From Cart</a>
                         </div>
                     </div>
                 @endforeach

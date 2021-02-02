@@ -15,7 +15,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">E-COM</a>
+            <a class="navbar-brand" href="/">E-COMM</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -32,7 +32,7 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Cart ({{ $total }})</a></li>
+            <li><a href="/cartlist">Cart ({{ $total }})</a></li>
                 @if (Session::has('user'))
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ Session::get('user')['name'] }} <span class="caret"></span></a>

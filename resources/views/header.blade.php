@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Orders</a></li>
+            <li><a href="/myorders">Orders</a></li>
             <form  action="/search" class="navbar-form navbar-left">
                 <div class="form-group">
                     <input type="text" name="query" class="form-control search-box" placeholder="Search">
